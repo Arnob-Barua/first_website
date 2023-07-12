@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="style_css/portfolio.css" />
+    <link rel="stylesheet" href="styles/portfolio.css" />
   </head>
   <body>
     <header class="header">
@@ -103,8 +103,10 @@
       <section>
         <div ><h3 class="section-title">A summary of My Resume</h3></div>
         <div class="resume-container">
+
           <!-- .resume-column*2>h3.column-title -->
           <div class="resume-column">
+
             <h3 class="column-title">Education</h3>
             <!-- .resume-item*3>h3.resume-item-title+h4.resume-item-institute+p.resume-item-description -->
             <div class="resume-item">
@@ -117,13 +119,15 @@
             <div class="resume-item">
               <h3 class="resume-item-title">Master in Computer Engineering</h3>
               <h4 class="resume-item-institute">Harvard University / 2015 - 2017</h4>
-              <p class="resume-item-description">List skill/technologies here. You can change the icon above </p>
+              <p class="resume-item-description">List skill/technologies here. You can change the icon above 
+                to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor. </p>
             </div>
             <hr>
             <div class="resume-item">
               <h3 class="resume-item-title">Master in Computer Engineering</h3>
               <h4 class="resume-item-institute">Harvard University / 2015 - 2017</h4>
-              <p class="resume-item-description">to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+              <p class="resume-item-description">List skill/technologies here. You can change the icon above 
+                to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
             </div>
           </div>
           <div class="resume-column">
@@ -151,9 +155,30 @@
             </div>
           </div>
         </div>
+        <div class="download-cv"><button class=" primary-btn">Download-CV</button></div>
       </section>
     </main>
 
-    <footer></footer>
+    <footer>
+      <div class="footer-column">
+        <h3 class="section-title">Lets Connect</h3>
+        <p class="section-description">Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+        <div class="img-link">
+          <a href="https://www.facebook.com/" > <img src="./images/icons/facebook.png" alt=""> </a>
+          <a href="https://twitter.com/i/flow/login?redirect_after_login=%2F" > <img src="./images/icons/twitter.png" alt=""> </a>
+          <a href="https://www.instagram.com/?hl=en" > <img src="./images/icons/insta.png" alt=""> </a>
+        </div>
+      </div>
+
+      <div class="footer-column">
+        <h3 class="section-title">Let's Message me</h3>
+        <form class="contact-form" action="">
+          <input type="text" placeholder="your name">
+          <input type="email" name="" id="" placeholder="email">
+          <textarea name="" id="" cols="30" rows="10" placeholder="Message" ></textarea>
+          <input type="submit" value="submit" class="primary-btn" >
+        </form>
+      </div>
+    </footer>
   </body>
 </html>
